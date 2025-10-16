@@ -4,6 +4,6 @@ export const extraMenuLinksObjects = [
   {
     label: "Users",
     href: "/users",
-    icon: <UserIcon className="h-4 w-4" />,
+    icon: '$$<UserIcon className="h-4 w-4" />$$',
   },
 ];
