@@ -8,6 +8,7 @@ To iterate fast on the database locally:
 - Run \`yarn drizzle-kit push\` to apply the changes.
 - Copy \`seed.data.example.ts\` to \`seed.data.ts\`, tweak as needed and run \`yarn db:seed\`
 - Youn can run \`yarn db:wipe\` to wipe the database and start fresh.
+- Run \`yarn drizzle-kit studio\` to spin up a UI to interact with the database.
 
 Whenever the database schema is stable, you should switch to the migrations workflow:
 - Initially and each time you change the schema, run \`yarn drizzle-kit generate\` to generate the migrations.
