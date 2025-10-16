@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "db:seed": "tsx services/database/seed.ts",
+    "db:wipe": "tsx services/database/wipe.ts",
+    "drizzle-kit": "drizzle-kit"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "~1.0.2",
+    "dotenv": "~17.2.3",
+    "drizzle-orm": "~0.44.6",
+    "pg": "~8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8",
+    "drizzle-kit": "~0.31.5",
+    "drizzle-seed": "~0.3.1",
+    "tsx": "~4.20.6"
+  }
+}
