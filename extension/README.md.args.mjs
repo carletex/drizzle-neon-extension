@@ -2,7 +2,9 @@ export const extraContents = `## Database
 
 This extension uses Drizzle ORM to interact with the database, and it's optimized to work using Neon as the database provider.
 
-To iterate fast on the database locally:
+First, spin up the database using \`docker compose up\`.
+
+To iterate on the database schema locally:
 
 - Tweak the schema in \`schema.ts\`
 - Run \`yarn drizzle-kit push\` to apply the changes.

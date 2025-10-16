@@ -2,6 +2,8 @@
 
 This extension uses Drizzle ORM to interact with the database, and it's optimized to work using Neon as the database provider.
 
+First, spin up the database using `docker compose up`.
+
 To iterate fast on the database locally:
 
 - Tweak the schema in `schema.ts`
